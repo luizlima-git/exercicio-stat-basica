@@ -14,5 +14,13 @@ vetor_aleatorio <- sample(1:100, size = 50, replace = TRUE)
 # Mostrar os primeiros valores
 head(vetor_aleatorio)
 
-# Mostrar o vetor completo (opcional)
-vetor_aleatorio
+# Calculando a média, a soma dos elementos do vetor_aleatorio, bem como
+# o seu tamanho.
+
+media <- mean(vetor_aleatorio)        # média
+soma  <- sum(vetor_aleatorio)         # soma
+tamanho <- length(vetor_aleatorio)    # tamanho
+
+media 
+soma  
+tamanho 
